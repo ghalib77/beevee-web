@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;800;900&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.font-Inconsolata-normal {
+  font-family: "Inconsolata", monospace;
+  font-weight: 400;
+}
+.font-Inconsolata-light {
+  font-family: "Inconsolata", monospace;
+  font-weight: 300;
+}
+.font-Inter-light {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+}
+.font-Inter-normal {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+.font-Inter-medium {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
